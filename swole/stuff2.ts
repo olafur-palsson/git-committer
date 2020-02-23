@@ -1,5 +1,4 @@
 
-CustomElementRegistry
 
 stuff
 
