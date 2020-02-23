@@ -16,6 +16,7 @@ const CONFIG = {
 }
 
 
+
 const main = () =>
   console.log(CONFIG)
 
@@ -24,10 +25,11 @@ const main = () =>
 
       const with_path = CONFIG.command.replace('FILEPATH', filepath)
       const with_timestamp = with_path.replace('TIMESTAMP', new Date().toISOString())
-      console.log(`X: ${modified_command}`)
-      exec(modified_command)
+      console.log(`X: ${with_timestamp}`)
+      exec(with_timestamp)
     })
   })
+
 
 
 main()
