@@ -16,7 +16,6 @@ const CONFIG = {
 }
 
 
-
 const main = () =>
   console.log(CONFIG)
 
