@@ -15,6 +15,8 @@ const CONFIG = {
   command: process.argv[3]
 }
 
+const GOOD = true
+const edits = GOOD
 
 const main = () =>
   console.log(CONFIG)
