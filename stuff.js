@@ -22,7 +22,8 @@ const main = () =>
   gaze(CONFIG.pattern, function(err, watcher) {
     this.on('all', (event_type, filepath) => {
 
-      const modified_command = CONFIG.command.replace('FILEPATH', filepath)
+      const with_path = CONFIG.command.replace('FILEPATH', filepath)
+      const with_timestamp = with_path.replace('TIMESTAMP', new Date().toISOString())
       console.log(`X: ${modified_command}`)
       exec(modified_command)
     })
