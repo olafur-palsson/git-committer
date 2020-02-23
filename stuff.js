@@ -30,7 +30,4 @@ const main = () =>
     })
   })
 
-
-
-
 main()
