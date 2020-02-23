@@ -26,33 +26,7 @@ const main = () =>
       console.log(`X: ${modified_command}`)
       exec(modified_command)
     })
-
-
   })
-
-
-
-
-// const not_enough_args = ls =>
-//     process.argv.length < ls.length
-
-
-// const init = ({ config_file }) => {
-//   const CONFIG = JSON.parse(fs.readFileSync(config_file))
-//   Object.keys(CONFIG).watcher.forEach(itme =>
-//     setup_watchers(item))
-// }
-
-
-// const setup_watchers = ({ patterns, ...settings }) => {
-//   const watcher = new gaze.Gaze(patterns)
-//   Object.keys(settings).forEach(event_type => {
-//     watcher.on(key, () => {
-//       const commands = settings[key]
-//       commands.forEach(exec)
-//     })
-//   })
-// }
 
 
 main()
