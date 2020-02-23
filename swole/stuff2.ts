@@ -1,8 +1,5 @@
 
 wow
-
 stuff
-
 amazing
-
 omg
