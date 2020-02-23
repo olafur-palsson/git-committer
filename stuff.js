@@ -9,7 +9,6 @@ if (process.argv.length < 4) {
   throw Error('Need to provide pattern and command')
 }
 
-
 const CONFIG = {
   pattern: process.argv[2],
   command: process.argv[3]
