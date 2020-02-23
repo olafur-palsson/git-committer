@@ -15,6 +15,7 @@ const CONFIG = {
   command: process.argv[3]
 }
 
+
 const main = () =>
   console.log(CONFIG)
 
